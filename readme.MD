@@ -6,3 +6,5 @@ to start on linux
 cd into the dir containing spambot.py
 
 python3 spambot.py
+
+to start the spam to +raidhere in the channel ud like to spam
