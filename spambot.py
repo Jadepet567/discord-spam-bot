@@ -6,10 +6,10 @@ import asyncio
 import os
 import time
 
-token = ("eneter ur token here")
+token = ("enter ur token here")
 client = discord.Client()
 raidtxt = str(input("plz enter in spam text:"))
-spamamt = int(input("plz eneter the amt of spam u want"))
+spamamt = int(input("plz enter the amt of spam u want:"))
 
 @client.event
 async def on_ready():
