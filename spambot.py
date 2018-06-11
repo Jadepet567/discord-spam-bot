@@ -1,30 +1,26 @@
-#mention spammer bot
 import discord
-import pickle
-import random
-import asyncio
-import os
+import sys
 import time
+import asyncio
 
-token = ("enter ur token here")
+token = ("")
 client = discord.Client()
-raidtxt = str(input("plz enter in spam text:"))
-spamamt = int(input("plz enter the amt of spam u want:"))
-invitelink = str(input("plz enter an invite link for server ud like to raid: "))
+raidtxt = str(input("Enter in spam text:"))
+spamamt = int(input("Enter the amt of spam u want:"))
 
 @client.event
 async def on_ready():
-    print("Bot is ready")
+    print("Bot is ready.")
+    print("Use +start to run the bot.")
+    print("Use +stop to stop the bot.")
 
 @client.event
 async def on_message(message):
-    if message.content.startswith("+raidhere"):
+    if message.content.startswith("+start"):
         for x in range(0, spamamt):
             time.sleep(1)
             await client.send_message(message.channel, raidtxt)
-
-@client.event
-async def on_ready():
-    await client.accept_invite(invitelink)
+    if message.content.startswith("+stop"):         
+        sys.exit()   
 
 client.run(token, bot=False)
