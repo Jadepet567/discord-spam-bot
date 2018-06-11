@@ -1,12 +1,10 @@
 u must have discord.py installed
-u must add ur user token inside the spambot.py file
+u must add ur user token *not discord app toekn* inside the spambot.py file
 
-to start on linux
-
-cd into the dir containing spambot.py
+==== TO START ====
 
 python3 spambot.py
 
-to start the spam to +raidhere in the channel ud like to spam
+to start the spam do +start in the channel ud like to spam
 
-to run on windows exec the python script normally as u would
+to stop the spam you do +stop.
