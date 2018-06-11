@@ -1,10 +1,10 @@
-#==== Dependencies ====
+# ==== Dependencies ====
 
 * `discord.py`
 
-#==== TO START ====
+# ==== TO START ====
 
-u must add ur user token *not discord app toekn* inside the spambot.py file
+u must add ur user token *not discord app token* inside the spambot.py file
 
 python3 spambot.py
 
