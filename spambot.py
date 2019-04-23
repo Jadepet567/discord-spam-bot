@@ -3,7 +3,7 @@ import sys
 import time
 import asyncio
 
-token = ("")
+token = ("NTI5MzMwMzE2OTQ3NDg4NzY4.XL8Q1g.yBJYv42c8w1f72Er0-TdUkWvz5o")
 client = discord.Client()
 raidtxt = str(input("Enter in spam text:"))
 spamamt = int(input("Enter the amt of spam u want:"))
